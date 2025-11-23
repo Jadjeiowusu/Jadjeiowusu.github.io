@@ -1,0 +1,31 @@
+title: "Justice Adjei Owusu"
+tagline: "AI Research • V2X • Reinforcement Learning"
+description: "Personal blog and research portfolio of Justice Adjei Owusu, PhD student at NCAT working on V2X Communication, Reinforcement Learning, and Energy policy analysis."
+url: "https://Jadjeiowusu.github.io"
+baseurl: ""
+author:
+  name: "Justice Adjei Owusu"
+  email: "jadjeiowusu@gmail.com"
+  github: "https://github.com/Jadjeiowusu"
+  linkedin: "https://www.linkedin.com/in/justice-adjei-owusu-10614715b"
+  scholar: "https://scholar.google.com/citations?user=4wzH5CgAAAAJ&hl=en"
+theme: null
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  portfolio:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: portfolio-item

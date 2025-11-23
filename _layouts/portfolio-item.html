@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  {% if page.role or page.tags %}
+  <p class="post-meta">
+    {% if page.role %}Role: {{ page.role }}{% endif %}
+    {% if page.tags %} • {{ page.tags | join: " • " }}{% endif %}
+  </p>
+  {% endif %}
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

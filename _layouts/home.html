@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div>
+    <p class="eyebrow">AI Researcher • PhD at NCAT</p>
+    <h1>Building reliable, math-grounded AI for the real world.</h1>
+    <p class="hero-subtitle">
+      I’m Justice Adjei Owusu, a PhD student at NCAT working on V2X communication and reinforcement learning.
+      I enjoy understanding the math behind AI/ML models and applying them to safety-critical systems and energy reliability.
+    </p>
+    <div class="hero-actions">
+      <a class="btn primary" href="{{ '/portfolio/' | relative_url }}">View portfolio</a>
+      <a class="btn secondary" href="{{ '/blog/' | relative_url }}">Read blog</a>
+    </div>
+  </div>
+</section>
+
+<section class="grid-2">
+  <div>
+    <h2>What I work on</h2>
+    <ul class="pill-list">
+      <li>V2X Communication & Intelligent Transportation</li>
+      <li>Reinforcement Learning & Control</li>
+      <li>Applied ML with strong mathematical foundations</li>
+      <li>Energy policy analysis & system reliability</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Current goals</h2>
+    <p>
+      I’m actively building a track record that bridges rigorous theory and deployable systems,
+      with the long-term goal of contributing to top AI research teams in industry.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Selected blog posts</h2>
+  <div class="card-list">
+    {% assign posts = site.posts | slice: 0, 3 %}
+    {% for post in posts %}
+    <article class="card">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="card-meta">{{ post.date | date: "%b %d, %Y" }}</p>
+      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+    </article>
+    {% endfor %}
+    {% if posts == empty %}
+    <p>No posts yet. Your first article will show up here.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section>
+  <h2>Recent projects</h2>
+  <div class="card-list">
+    {% assign items = site.portfolio | sort: 'date' | reverse | slice: 0, 3 %}
+    {% for item in items %}
+    <article class="card">
+      <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+      <p class="card-meta">{{ item.tags | join: " • " }}</p>
+      <p>{{ item.excerpt | strip_html | truncate: 140 }}</p>
+    </article>
+    {% endfor %}
+    {% if items == empty %}
+    <p>Add portfolio items to the <code>_portfolio</code> folder and they’ll show up here.</p>
+    {% endif %}
+  </div>
+</section>
