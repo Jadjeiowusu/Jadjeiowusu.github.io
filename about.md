@@ -8,7 +8,7 @@ title: "About"
   <div>
     <img src="{{ '/assets/img/headshot.jpeg' | relative_url }}" 
          alt="Justice Adjei Owusu" 
-         style="width: 180px; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--border);" />
+         style="width: 180px; height: 180px; object-fit: cover; object-position: top; border-radius: 12px; border: 1px solid var(--border);" />
   </div>
 
   <div style="flex: 1; min-width: 250px;">
