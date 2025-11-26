@@ -9,4 +9,4 @@ tags: ["Energy Policy", "Resilience", "Analytics"]
 Preprint analyzing how diversified energy portfolios influence state-level resilience and planning outcomes.  
 Co-authors: Justice Adjei Owusu, Theresa Thompson, Gurcan Comert, Marwan Bikdash.
 
-👉 Full text / published version: *on my google scholar*
+👉 Full text / published version: *https://doi.org/10.2139/ssrn.5600800*
