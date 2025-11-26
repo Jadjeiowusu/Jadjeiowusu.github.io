@@ -13,8 +13,8 @@ title: "About"
 
   <div style="flex: 1; min-width: 250px;">
     <p>
-      **Justice Adjei Owusu** is a PhD student at **North Carolina A&T State University (NCAT)** 
-      with a deep interest in AI research and V2X communication. His work blends advanced ML algorithms with real-world system modeling. He spends considerable time studying the **mathematical foundations** behind these models.
+      <strong>Justice Adjei Owusu</strong> is a PhD student at <strong>North Carolina A&T State University (NCAT)</strong> 
+      with a deep interest in AI research and V2X communication. His work blends advanced ML algorithms with real-world system modeling. He spends considerable time studying the <strong>mathematical foundations</strong> behind these models.
     </p>
   </div>
 </div>
