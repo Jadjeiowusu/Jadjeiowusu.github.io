@@ -4,22 +4,20 @@ title: "About"
 ---
 
 # About
-
 <div style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
-  <!-- Headshot placeholder -->
-  <div style="width: 180px; height: 180px; border-radius: 12px; border: 1px solid var(--border); background: var(--card-bg); display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 0.9rem;">
-    Headshot<br>(Coming Soon)
+  <div>
+    <img src="{{ '/assets/img/headshot.jpeg' | relative_url }}" 
+         alt="Justice Adjei Owusu" 
+         style="width: 180px; height: 180px; object-fit: cover; border-radius: 12px; border: 1px solid var(--border);" />
   </div>
 
   <div style="flex: 1; min-width: 250px;">
     <p>
       **Justice Adjei Owusu** is a PhD student at **North Carolina A&T State University (NCAT)** 
-      with a deep interest in AI research, particularly in areas where mathematics meets real-world imapct.
+      with a deep interest in AI research and V2X communication. His work blends advanced ML algorithms with real-world system modeling. He spends considerable time studying the **mathematical foundations** behind these models.
     </p>
   </div>
 </div>
-
-His work blends advanced ML algorithms with real-world system modeling. He spends considerable time studying the **mathematical foundations** behind AI/ML models.
 
 ---
 
@@ -54,7 +52,7 @@ Beyond his core transportation-AI research, Justice also contributes to:
 
 ## 🎯 Long-Term Vision
 
-Justice aims to work with top AI research teams—whether in industry labs or global technology companies—to advance:
+Justice aims to work with top AI research teams both in industry labs or global technology companies to advance:
 
 - Robust and mathematically grounded ML systems  
 - Safe and interpretable AI for critical infrastructure  
