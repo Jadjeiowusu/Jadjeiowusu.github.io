@@ -200,8 +200,8 @@ $$
 
 Special cases:
 
-- \( \lambda = 0 \Rightarrow \) TD(0)  
-- \( \lambda = 1 \Rightarrow \) Monte-Carlo  
+- $\lambda = 0 \Rightarrow$ TD(0)  
+- $\lambda = 1 \Rightarrow$ Monte-Carlo  
 
 ---
 
@@ -273,21 +273,21 @@ We consider the following gridworld:
   - $(0,0)$  
   - $(3,3)$
 - Value of terminal states:  
-  $$
-  V(T) = 0
-  $$
+$$
+V(T) = 0
+$$
 - Reward:  
-  $$
-  R = -1 \quad \text{each step until terminal}
-  $$
+$$
+R = -1 \quad \text{each step until terminal}
+$$
 - Policy: equiprobable random  
-  $$
-  \pi(a|s) = \frac{1}{4}
-  $$
+$$
+\pi(a|s) = \frac{1}{4}
+$$
 - Discount factor:  
-  $$
-  \gamma = 1
-  $$
+$$
+\gamma = 1
+$$
 
 ---
 
