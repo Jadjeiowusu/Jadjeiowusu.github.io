@@ -272,22 +272,10 @@ We consider the following gridworld:
 - Terminal states:  
   - $(0,0)$  
   - $(3,3)$
-- Value of terminal states:  
-$$
-V(T) = 0
-$$
-- Reward:  
-$$
-R = -1 \quad \text{each step until terminal}
-$$
-- Policy: equiprobable random  
-$$
-\pi(a|s) = \frac{1}{4}
-$$
-- Discount factor:  
-$$
-\gamma = 1
-$$
+- Value of terminal states: $V(T) = 0$
+- Reward: $R = -1 \quad \text{each step until terminal}$
+- Policy: equiprobable random: $\pi(a|s) = \frac{1}{4}$
+- Discount factor: $\gamma = 1$
 
 ---
 
