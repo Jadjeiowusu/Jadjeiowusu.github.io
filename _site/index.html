@@ -26,6 +26,21 @@
 
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/js/theme-toggle.js" defer></script>
+    <!-- MathJax -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>  
   </head>
   <body class="site">
     <header class="site-header">
@@ -37,7 +52,7 @@
           <a href="/">Home</a>
           <a href="/blog/">Blog</a>
           <a href="/portfolio/">Portfolio</a>
-          <a href="/about/">About</a>
+          <a href="/about">About</a>
         </nav>
         <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
       </div>
@@ -83,8 +98,12 @@
   <div class="card-list">
     
     
+    <article class="card">
+      <h3><a href="/2025/11/29/ReinforcementLearning1.html">RL Part 1 – Foundations</a></h3>
+      <p class="card-meta">Nov 29, 2025</p>
+      <p>Reinforcement Learning (RL) is all about learning through interaction. An agent observes the world, takes actions, receives rewards, and ...</p>
+    </article>
     
-    <p>No posts yet. Your first article will show up here.</p>
     
   </div>
 </section>
@@ -93,13 +112,6 @@
   <h2>Recent projects</h2>
   <div class="card-list">
     
-    
-    <article class="card">
-      <h3><a href="/portfolio/energy-diversification-resilience.html">How Energy Diversification Drives State Resilience</a></h3>
-      <p class="card-meta">Energy Policy • Resilience • Analytics</p>
-      <p>Preprint analyzing the correlation between energy diversification and resilience.
-Co-authors: Justice Adjei Owusu, Theresa Thompson, Gurc...</p>
-    </article>
     
     <article class="card">
       <h3><a href="/portfolio/intelligent-rf-channel-adaptation.html">Intelligent RF Channel Adaptation Using Rain Detection and Low-Cost Sensors</a></h3>
@@ -113,6 +125,13 @@ Co-authors: Justice Adjei Owusu, Theresa Thompson, Gurc...</p>
       <p class="card-meta">Computer Vision • YOLO • PyTorch</p>
       <p>A two-class fire/smoke detector fine-tuned with YOLOv8n and YOLO11n.
 Supports ONNX/TensorRT/CoreML exports and real-time webcam/video inf...</p>
+    </article>
+    
+    <article class="card">
+      <h3><a href="/portfolio/nyc-taxi-streaming.html">Real-Time NYC Taxi Pipeline (Kafka → Spark → PostgreSQL)</a></h3>
+      <p class="card-meta">Streaming • Kafka • Spark • PostgreSQL • Docker</p>
+      <p>Streaming pipeline for NYC taxi trips using Kafka + Spark Structured Streaming with JDBC persistence.
+Fully dockerized for reproducible d...</p>
     </article>
     
     

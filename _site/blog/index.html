@@ -26,6 +26,21 @@
 
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/js/theme-toggle.js" defer></script>
+    <!-- MathJax -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>  
   </head>
   <body class="site">
     <header class="site-header">
@@ -37,7 +52,7 @@
           <a href="/">Home</a>
           <a href="/blog/">Blog</a>
           <a href="/portfolio/">Portfolio</a>
-          <a href="/about/">About</a>
+          <a href="/about">About</a>
         </nav>
         <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
       </div>
@@ -48,6 +63,11 @@
 <p>Writing about AI, reinforcement learning, V2X, and the math behind modern ML systems.</p>
 
 <ul class="post-list">
+  
+  <li>
+    <a href="/2025/11/29/ReinforcementLearning1.html">RL Part 1 – Foundations</a>
+    <span class="post-list-meta">Nov 29, 2025</span>
+  </li>
   
 </ul>
 

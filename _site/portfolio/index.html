@@ -26,6 +26,21 @@
 
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/js/theme-toggle.js" defer></script>
+    <!-- MathJax -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>  
   </head>
   <body class="site">
     <header class="site-header">
@@ -37,7 +52,7 @@
           <a href="/">Home</a>
           <a href="/blog/">Blog</a>
           <a href="/portfolio/">Portfolio</a>
-          <a href="/about/">About</a>
+          <a href="/about">About</a>
         </nav>
         <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
       </div>
@@ -54,13 +69,6 @@
 <ul class="post-list">
   
   
-  
-  <li>
-    <a href="/portfolio/energy-diversification-resilience.html">How Energy Diversification Drives State Resilience</a>
-    
-      <span class="post-list-meta">Preprint</span>
-    
-  </li>
   
   <li>
     <a href="/portfolio/intelligent-rf-channel-adaptation.html">Intelligent RF Channel Adaptation Using Rain Detection and Low-Cost Sensors</a>
