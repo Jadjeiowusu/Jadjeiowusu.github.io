@@ -1,5 +1,9 @@
+---
+layout: post
+title: "RL Part 1 – Foundations"
+tags: ["Reinforcement Learning", "Notes"]
+---
 
-# RL Part 1
 Reinforcement Learning (RL) is all about learning through interaction. An agent observes the world, takes actions, receives rewards, and learns to make better decisions over time. This first part of the series covers fundamental RL concepts: value functions, Monte-Carlo methods, Temporal-Difference learning, on-policy vs off-policy learning, and more.
 ## K-Armed Bandits
 
