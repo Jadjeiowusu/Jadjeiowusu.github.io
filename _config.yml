@@ -13,7 +13,9 @@ theme: null
 markdown: kramdown
 
 kramdown:
+  input: GFM
   math_engine: mathjax
+  hard_wrap: false
 plugins:
   - jekyll-seo-tag
 
