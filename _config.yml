@@ -11,6 +11,9 @@ author:
   scholar: "https://scholar.google.com/citations?user=4wzH5CgAAAAJ&hl=en"
 theme: null
 markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
 plugins:
   - jekyll-seo-tag
 
